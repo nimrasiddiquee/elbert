@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin:0;
+ padding:0;
+ font-family: roboto,sans sans-serif;
+
+}
+.navbar{
+    width:100%;
+     display: flex;
+    justify-content:space-between;
+    align-self: center;
+    padding: 15px;
+    
+    
+    
+    
+}
+.maga{
+    width:100px;
+    height:50px;
+    margin-left: 15px;
+    fill:#E50914;
+}
+button{
+    margin-right:90px;
+   background-color: #E50914; 
+   color: #fff;
+   border:0;
+   padding:4px;
+   border-radius:5px ;
+   width:70px;
+   height: 40px;
+   font-size: 15px;
+   
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color:#fff;
+}
+h1{
+    font-size: 50px;
+    
+}
+h4{
+    font-size: 18px;
+    padding-top: 10px;
+}
+p{
+    padding-top: 15px;
+    font-size: 16px;
+}
+.input-one{
+    display: flex;
+    margin-top: 15px;
+
+}
+input{
+    width:300px;
+    border-radius: 5px;
+    border-color:whitesmoke;
+    padding-left: 5px;
+    background-color: rgba(0, 0,0, 0.5);
+
+}
+.get{
+    margin-right:90px;
+   background-color: #E50914; 
+   color: #fff;
+   border:0;
+   padding: 5px;
+   border-radius:5px ;
+   width:150px;
+   font-size: 22px;
+   height:50px;
+   margin-left: 5px;
+   
+}
+.fa-angle-right{
+    padding-left: 5px;
+}
+::placeholder{
+    color:whitesmoke;
+    font-size: 15px;
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/81fe52dd-5b43-4b5c-975a-436256a1778d/PK-en-20240603-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+height:500px;
+
+
+}
+.tv-show{
+    width:100%;
+    height:400xp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    border-top: 1px solid gainsboro;
+}
+.tv video{
+    position: absolute;
+    right:195px;
+    top:600px;
+
+
+
+}
+.paragraph{
+    padding-right:100px;
+}
+.enjoy{
+    font-size:50px;
+    font-weight: 700;
+}
+.wat{
+    font-size: 20px;
+    line-height: 26px;
+}
+video{
+    position: absolute;
+    
+}
+.mobile{
+    border-top:1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width:100%;
+    height:400px;
+    padding-top: 30px;
+}
+.mob{
+    margin-right: 50px;
+}
+.girl{
+    width:370px;
+    padding-right:210px;
+
+}
+.para{
+    color:whitesmoke;
+    padding-top: 50px;
+    padding-right:100px;
+
+}
+.cart{
+    padding-right:100px;
+}
+.line{
+    background-color: black;
+    width:100%;
+    height:400px;
+    padding-top: 30px;
+    color: #fff;
+    border-top: 1px solid gainsboro;
+}
+.watch{
+    font-size:50px;
+    margin-left: 90px;
+}
+.stream{
+    margin-left: 90px;
+    font-size: 20px;
+}
+.cartoon{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:#fff;
+    border-top: 1px solid gainsboro;
+}
+.baby{
+    width:470px;
+    padding-right: 100px;
+}
+.creat{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.send{
+    margin-bottom:70px;
+    font-size: 30px;
+}
+.frequently{
+    background-color: black;
+    width:100%;
+    height:800px;
+    color:#fff;
+    border-top: 1px solid gainsboro;
+    
+}
+.freq{
+    font-weight:800;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box{
+    width:850px;
+    height:65px;
+    border:1px solid grey;
+    margin-left: 200px;
+    margin-top: 10px;
+    padding-left:7px;
+    padding-bottom: 15px;
+
+    justify-content: space-between;
+    display: flex;
+    background-color: #414141;
+    color:#fff;
+    border: 0;
+    align-items: center;
+    
+
+}
+.flix{
+    font-size: 25px;
+}
+.fa-plus{
+    padding-right: 10px;
+    padding-top:5px;
+    font-size: 40px;
+}
+.flip{
+    margin-left: 250px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.input-one{
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: #0F0F0F;
+    border-color: #0F0F0F;
+}
+::placeholder{
+    color:gainsboro;
+}
+.footer{
+    width:100%;
+    height:500px;
+    background-color: black;
+    border-top: 1px solid gainsboro;
+    color:#fff;
+    display: flex;
+}
+.foot{
+    margin-top: 50px;
+    line-height: 40px;
+    margin-left: 100px;
+    color:gainsboro;
+}
+li{
+    list-style: none;
+}
+.foot-one{
+    margin-top: 85px;
+    line-height: 40px;
+    margin-left: 60px;
+    color:gainsboro;
+}
+.foot-two{
+    margin-top: 85px;
+    line-height: 40px;
+    margin-left: 60px;
+    color:gainsboro;
+}
+.foot-three{
+    margin-top: 85px;
+    line-height: 40px;
+    margin-left: 60px;
+    color:gainsboro;
+}
